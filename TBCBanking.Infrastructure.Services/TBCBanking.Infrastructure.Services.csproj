@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="9.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.DataAnnotations" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TBCBanking.Domain.Models\TBCBanking.Domain.Models.csproj" />
+    <ProjectReference Include="..\TBCBanking.Domain.Repositories\TBCBanking.Domain.Repositories.csproj" />
+    <ProjectReference Include="..\TBCBanking.Domain.Services\TBCBanking.Domain.Services.csproj" />
+  </ItemGroup>
+
+</Project>
